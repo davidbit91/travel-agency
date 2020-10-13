@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" onsubmit="recogerDatos()" name="formulario">
+        <label for="noches">Número de noches</label>
+        <input type="text" id="noches">
+        <br/>
+        <label for="ciudad">Nombre de la ciudad</label>
+        <input type="text" id="ciudad">
+        <br/>
+        <label for="alquiler">Días de alquiler</label>
+        <input type="text" id="alquiler">
+        <br/>
+        <input type="button" value="Enviar" onclick="recogerDatos()">
+    </form>
+    <div id="div1" style="border:1px solid black;">Precios hotel</div>
+    <div id="div2" style="border:1px solid black;">Precios avión</div>
+    <div id="div3" style="border:1px solid black;">Días de alquiler</div>
+    <div id="div4"></div>
+    <script src="index.js"></script>
+</body>
+</html>
